@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Artists</title>
+
+  <style>
+    body {
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tooltip {
+      background-color: white;
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltip-text {
+      visibility: hidden;
+    }
+
+    .tooltip:hover .tooltip-text{
+      visibility: visible;
+    } 
+  </style>
+</head>
+
+<body>
+  <h1>Michelangelo (1475-1564)</h1>
+
+  <img src = "Michelangelo.jpeg" width = 300px height = 300px>
+
+  <ul>
+    <li> Completed artwork for nine different catholic popes</li>
+    <li> Was a painter, sculpter, and an architect</li>
+    <li> Was a poet</li>
+    <li> Worked on the Sistine Chapel</li>
+  </ul>
+
+  <button onclick = "window.location.href = 'index.html'"> Back</button>
+  
+</body>
+
+</html>
